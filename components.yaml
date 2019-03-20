@@ -5,5 +5,9 @@ python:
   filter: /^\d+\.\d+\.\d+-alpine\d+\.\d+$/
   files: [Dockerfile]
   version-pattern: "PYTHON_VERSION={version}"
-
+Sphinx:
+  component-type: pypi
+  current-version: 1.5.3
+  files: [requirements.txt]
+  filter: /^\d+\.\d+\.\d+$/
 
