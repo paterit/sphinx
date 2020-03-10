@@ -7,7 +7,7 @@ Sphinx:
   next-version: 2.4.4
 python:
   component-type: docker-image
-  current-version: 3.8.0-alpine3.10
+  current-version: 3.8.2-alpine3.11
   docker-repo: library
   files:
   - Dockerfile

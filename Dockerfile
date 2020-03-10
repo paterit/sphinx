@@ -1,4 +1,4 @@
-ARG PYTHON_VERSION=3.8.0-alpine3.10
+ARG PYTHON_VERSION=3.8.2-alpine3.11
 
 FROM python:${PYTHON_VERSION} as builder
 
