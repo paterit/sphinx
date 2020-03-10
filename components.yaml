@@ -1,10 +1,10 @@
 Sphinx:
   component-type: pypi
-  current-version: 2.2.1
+  current-version: 2.4.4
   files:
   - requirements.txt
   filter: /^\d+\.\d+\.\d+$/
-  next-version: 2.2.1
+  next-version: 2.4.4
 python:
   component-type: docker-image
   current-version: 3.8.0-alpine3.10
@@ -12,7 +12,7 @@ python:
   files:
   - Dockerfile
   filter: /^\d+\.\d+\.\d+-alpine\d+\.\d+$/
-  next-version: 3.8.0-alpine3.10
+  next-version: 3.8.2-alpine3.11
   version-pattern: PYTHON_VERSION={version}
 sphinx_rtd_theme:
   component-type: pypi
@@ -20,3 +20,4 @@ sphinx_rtd_theme:
   files:
   - requirements.txt
   filter: /^\d+\.\d+\.\d+$/
+  next-version: 0.4.3
