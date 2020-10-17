@@ -16,7 +16,7 @@ python:
   version-pattern: PYTHON_VERSION={version}
 sphinx_rtd_theme:
   component-type: pypi
-  current-version: 0.4.3
+  current-version: 0.5.0
   files:
   - requirements.txt
   filter: /^\d+\.\d+\.\d+$/
