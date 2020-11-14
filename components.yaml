@@ -1,10 +1,10 @@
 Sphinx:
   component-type: pypi
-  current-version: 3.3.0
+  current-version: 3.3.1
   files:
   - requirements.txt
   filter: /^\d+\.\d+\.\d+$/
-  next-version: 3.3.0
+  next-version: 3.3.1
 python:
   component-type: docker-image
   current-version: 3.9.0-alpine3.12
